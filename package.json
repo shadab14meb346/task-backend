@@ -1,0 +1,24 @@
+{
+	"name": "task-app",
+	"version": "1.0.0",
+	"description": "Task backend API",
+	"main": "server.js",
+	"scripts": {
+		"start": "NODE_ENV=production node server",
+		"dev": "nodemon server"
+	},
+	"author": "Md Shadab Alam",
+	"license": "MIT",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^8.1.0",
+		"jsonwebtoken": "^8.5.1",
+		"bcryptjs": "^2.4.3",
+		"express": "^4.17.1",
+		"mongoose": "^5.7.5",
+		"nodemailer": "^6.3.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.2"
+	}
+}
